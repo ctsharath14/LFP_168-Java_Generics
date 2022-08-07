@@ -1,17 +1,17 @@
 import org.junit.Test;
 
 public class MaximumTest {
-
     /* Test method to find maximum
-     * number from 3 float numbers
+     * String from 3 strings
      */
     @Test
-    public void findFloatMaximum() {
+    public void findStringMaximum() {
         Maximum maximum = new Maximum();
 
-        Float num1 = (float) (Math.random() * 1000);
-        Float num2 = (float) (Math.random() * 1000);
-        Float num3 = (float) (Math.random() * 1000);
-        System.out.println("The maximum float number is :"+ maximum.findMax(num1,num2,num3));
+        String fruit1 = "Apple";
+        String fruit2 = "Peach";
+        String fruit3 = "Banana";
+        System.out.println("The maximum string is :"+ maximum.findMax(fruit1,fruit2,fruit3));
     }
+
 }
